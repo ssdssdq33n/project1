@@ -281,7 +281,7 @@ const app={
 app.start()
 
 const main={
-    currentIndexs:1,
+    currentIndexs:0,
     imgs:[
         {
             neo:'./assets/nen/thaoleo.jpg'

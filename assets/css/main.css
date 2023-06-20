@@ -41,7 +41,8 @@ body{
     }
     h1{
         position: absolute;
-        left: 50px;
+        left: 50%;
+        transform: translateX(-50%);
         font-weight: 500;
         font-family: "Lobster Two", cursive;
     }
@@ -54,8 +55,8 @@ body{
     }
     .phong{
         background-color: hsla(0,70%,70%,.5);
-        width: 250px;
-        height: 280px;
+        width: 280px;
+        height: 320px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -135,7 +136,7 @@ body{
     .chu{
         font-weight: 700;
         font-family: "Lobster Two", cursive;
-        font-size: 15px;
+        font-size: 20px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -155,7 +156,7 @@ body{
         left: 50%;
         transform: translateX(-50%);
         bottom: 90px;
-        font-size: 30px;
+        font-size: 35px;
     }
     .nut2{
         width: 50px;
@@ -179,7 +180,7 @@ body{
         justify-content: center;
         align-items: center;
         color: #fff;
-        font-size: 30px;
+        font-size: 35px;
     }
     .active{
         display: block;
@@ -287,8 +288,8 @@ body{
         }
     }
     .danhsach{
-        min-height: 593px;
-        width: 190px;
+        min-height: 630px;
+        width: 200px;
         background-color: pink;
         border-radius: 5%;
         position: relative;
@@ -413,14 +414,14 @@ body{
 }
 .chonanhnen{
     width: 100%;
-    height: 550px;
+    height: 630px;
     /* background-color: #000; */
-    margin-top: 33px;
+    margin-top: 35px;
     overflow-y: scroll;
 }
 .leo{
-    width: 287;
-    height: 387px;
+    width: 100%;
+    height: 420px;
     background-size: cover;
     border: 1px solid #666;
     margin-bottom: 10px;
