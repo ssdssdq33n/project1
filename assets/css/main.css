@@ -37,7 +37,7 @@ body{
         position: absolute;
         top: 40px;
         width: 100%;
-        height: 390px;
+        height: 420px;
     }
     h1{
         position: absolute;
@@ -49,7 +49,7 @@ body{
     .app{
         position: relative;
         width: 100%;
-        height: 630px;
+        height: 655px;
         background: linear-gradient(90deg,rgba(241,187,10,0.534),rgba(34,216,216,0.308),rgba(121,38,27,0.452));
         border: 1px solid #666;
     }
@@ -190,7 +190,7 @@ body{
         font-size: 25px;
         position: absolute;
         right: 70px;
-        bottom: 95px;
+        bottom: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -208,7 +208,7 @@ body{
         font-size: 25px;
         position: absolute;
         left: 70px;
-        bottom: 95px;
+        bottom: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -262,7 +262,7 @@ body{
 
     .playlist{
         width: 100%;
-        height: 630px;
+        height: 655px;
         background-color: rgba(0,0,0,0.5);
         position: fixed;
         top: 0;
@@ -291,7 +291,8 @@ body{
         min-height: 630px;
         width: 200px;
         background-color: pink;
-        border-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
         position: relative;
         overflow-y: scroll;
     }
@@ -358,7 +359,7 @@ body{
 
 .chon{
     width: 100%;
-    height: 630px;
+    height: 655px;
     background-color: paleturquoise;
     position: fixed;
     top: 0;
@@ -414,14 +415,14 @@ body{
 }
 .chonanhnen{
     width: 100%;
-    height: 630px;
+    height: 655px;
     /* background-color: #000; */
     margin-top: 35px;
     overflow-y: scroll;
 }
 .leo{
     width: 100%;
-    height: 420px;
+    height: 440px;
     background-size: cover;
     border: 1px solid #666;
     margin-bottom: 10px;
