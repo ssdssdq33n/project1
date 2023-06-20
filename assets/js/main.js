@@ -112,7 +112,7 @@ const app={
             return `
             <div class="box ${index=== app.currentIndex ? 'mau':''}" data-index="${index}">
                         <div class="anh" style="background-image: url('${song.img}');"></div>
-                        <div >
+                        <div class="nav">
                             <p class="tenbaihat">${song.name}</p>
                             <h2 class="ten">${song.singger}</h2>
                         </div>
