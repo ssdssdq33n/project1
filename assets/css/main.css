@@ -41,7 +41,7 @@ body{
     }
     h1{
         position: absolute;
-        left: 40px;
+        left: 50px;
         font-weight: 500;
         font-family: "Lobster Two", cursive;
     }
@@ -255,13 +255,13 @@ body{
     #progress{
         width: 100%;
         position: absolute;
-        bottom: 50px;
+        bottom: 40px;
         opacity: 0.6;
     }
 
     .playlist{
-        width: 291px;
-        height: 594px;
+        width: 100%;
+        height: 630px;
         background-color: rgba(0,0,0,0.5);
         position: fixed;
         top: 0;
@@ -356,8 +356,8 @@ body{
 }
 
 .chon{
-    width: 291px;
-    height: 594px;
+    width: 100%;
+    height: 630px;
     background-color: paleturquoise;
     position: fixed;
     top: 0;
