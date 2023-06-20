@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:740px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: nhay13 linear 1s;
+        transition: all linear 1s;
+    }
+    @keyframes nhay13 {
+        from{
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    .nen1{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+       
+    }
+    .nen{
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        height: 390px;
+    }
+    h1{
+        position: absolute;
+        left: 35px;
+        font-weight: 500;
+        font-family: "Lobster Two", cursive;
+    }
+    .app{
+        position: relative;
+        width: 290px;
+        height: 593px;
+        background: linear-gradient(90deg,rgba(241,187,10,0.534),rgba(34,216,216,0.308),rgba(121,38,27,0.452));
+        border: 1px solid #666;
+    }
+    .phong{
+        background-color: hsla(0,70%,70%,.5);
+        width: 250px;
+        height: 280px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0px;
+    }
+    .list{
+        font-size: 30px;
+        color: black;
+        font-weight: 1000;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        animation: growth linear 0.6s;
+        transition: all linear 0.6s;
+    }
+    @keyframes growth {
+        from{
+            font-size: 15px;
+        }
+        to{
+            font-size: 30px;
+        }
+    }
+    .list2{
+        font-size: 15px;
+    }
+    .tym{
+        font-size: 30px;
+        font-weight: 1000;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        animation: growth ease 0.5s;
+        transition: all ease 0.5s;
+    }
+    .tymbe{
+        font-size: 15px;
+        font-weight: 1000;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .cd-dia{
+        width: 250px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30px;
+    }
+    .dia{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /* position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px; */
+    }
+    .spin{
+        animation: spinner 2.5s infinite linear;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+    }
+    @keyframes spinner {
+          from{
+            transform: rotate(0);
+         }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .chu{
+        font-weight: 700;
+        font-family: "Lobster Two", cursive;
+        font-size: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+    }
+
+    .tamgiac{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: palevioletred;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 90px;
+        font-size: 30px;
+    }
+    .nut2{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        margin-top: 0px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 90px;
+        display: none;
+    }
+    .dung{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: palevioletred;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    .active{
+        display: block;
+    }
+    .len{
+        color: #000;
+        font-size: 25px;
+        position: absolute;
+        right: 70px;
+        bottom: 95px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-weight: 1000;
+    }
+    .len:hover{
+        background-color: #666;
+        color: #fff;
+    }
+    .xuong{
+        color: #000;
+        font-size: 25px;
+        position: absolute;
+        left: 70px;
+        bottom: 95px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-weight: 1000;
+    }
+    .xuong:hover{
+        background-color: #666;
+        color: #fff;
+    }
+    .random{
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 95px;
+        right: 20px;
+        font-weight: 1000;
+    }
+    .random:hover{
+        background-color: #666;
+    }
+    .quay{
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 95px;
+        left: 20px;
+        font-weight: 1000;
+    }
+    .quay:hover{
+        background-color: #666;
+    }
+    #progress{
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        opacity: 0.6;
+    }
+
+    .playlist{
+        width: 291px;
+        height: 594px;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        animation: nhayvao linear 0.6s;
+        display: none;
+        transition: all ease 0.6s;
+    }
+    .momenu{
+        display: block;
+    }
+    @keyframes nhayvao {
+        from{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    .danhsach{
+        min-height: 593px;
+        width: 190px;
+        background-color: pink;
+        border-radius: 5%;
+        position: relative;
+        overflow-y: scroll;
+    }
+    .xoabo{
+        height: 100%;
+        width: 102px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .chu2{
+        font-weight: 600;
+        font-family: "Lobster Two", cursive;
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .lists{
+        width: 100%;
+        min-height: 450px;
+        position: absolute;
+        top: 50px;
+        overflow-y: scroll;
+        border-top: 1px solid #666;
+    }
+    .box{
+        width: 100%;
+        height: 60px;
+        background-color: burlywood;
+        border-radius: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #666;
+        margin-bottom: 5px;
+    }
+    .anh{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .tenbaihat{
+        font-weight: 500;
+        font-family: "Lobster Two", cursive;
+        font-size: 15px;
+    }
+    .ten{
+
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.8;
+        font-style: italic;
+    }
+}
+.red{
+    color: red;
+}
+.mau{
+    background-color: palegreen;
+}
+
+.chon{
+    width: 291px;
+    height: 594px;
+    background-color: paleturquoise;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation: nhayvao2 linear 0.6s;
+    /* transform: translateY(100%); */
+    transition: all linear 0.6s;
+    display: none;
+    border: 1px solid #666;
+}
+.turn{
+    display: block;
+}
+.turn2{
+    animation: nhayra linear 0.6s;
+}
+@keyframes   nhayvao2 {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes nhayra {
+    from{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+.donglai{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chonanhnen{
+    width: 100%;
+    height: 550px;
+    /* background-color: #000; */
+    margin-top: 33px;
+    overflow-y: scroll;
+}
+.leo{
+    width: 287;
+    height: 387px;
+    background-size: cover;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+}
